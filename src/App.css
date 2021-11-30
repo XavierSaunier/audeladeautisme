@@ -1,1 +1,90 @@
 /* Other rules */
+.Home {
+  height: 100%;
+  width: auto;
+}
+
+.Header {
+  height: 100px;
+  flex: 1;
+  display: flex;
+  padding: 0 15px;
+  color: white;
+  font-size: 35px;
+  align-items: center;
+  background-color: rgba(47, 150, 209, 0.562);
+  right: 20px;
+  left: 20px;
+  border-radius: 15px;
+  position: fixed;
+}
+
+.Header > img {
+  height: 100px;
+  margin: 0 15px;
+}
+
+.Header > div {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  text-shadow: black 2px 2px 2px;
+}
+
+.Body {
+  display: flex;
+  width: auto;
+  margin: 0 auto;
+  max-width: 1440px;
+  padding-top: 110px;
+}
+
+.ControlPannel {
+  display: flex;
+  flex-direction: column;
+  padding: 0 15px;
+  background-color: rgba(0, 37, 250, 0.562);
+  border-radius: 15px;
+  color: white;
+  height: auto;
+  margin-left: 10px;
+}
+button {
+  height: 35px;
+  border: solid 3px;
+  margin: 2px 0;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.checked {
+  background-color: white;
+  font-weight: bold;
+  color: rgba(0, 37, 250, 0.562);
+  border-color: rgb(0, 37, 250);
+}
+
+.unchecked {
+  background-color: rgba(0, 37, 250, 0.562);
+  color: white;
+  border-color: white;
+}
+
+.Info {
+  margin: 20px 30px;
+  padding: 15px 25px;
+  border-radius: 25px;
+  border: solid 2px blue;
+  text-align: justify;
+  font-size: 18px;
+}
+
+.Pictures {
+  display: flex;
+  width: auto;
+}
+
+.Pictures > img {
+  width: 50%;
+  margin: 10px 0;
+}
