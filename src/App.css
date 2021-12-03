@@ -1,6 +1,9 @@
-/* Other rules */
+.General {
+  position: relative;
+  min-height: 98vh;
+}
+
 .Home {
-  height: 100%;
   width: auto;
 }
 
@@ -12,7 +15,7 @@
   color: white;
   font-size: 35px;
   align-items: center;
-  background-color: rgba(47, 150, 209, 0.562);
+  background-color: rgb(142, 187, 212);
   right: 20px;
   left: 20px;
   border-radius: 15px;
@@ -37,6 +40,7 @@
   margin: 0 auto;
   max-width: 1440px;
   padding-top: 110px;
+  padding-bottom: 130px;
 }
 
 .ControlPannel {
@@ -48,6 +52,7 @@
   color: white;
   height: auto;
   margin-left: 10px;
+  margin-top: 20px;
 }
 button {
   height: 35px;
@@ -71,7 +76,7 @@ button {
 }
 
 .Info {
-  margin: 20px 30px;
+  margin: 20px 30px 0px 30px;
   padding: 15px 25px;
   border-radius: 25px;
   border: solid 2px blue;
@@ -87,4 +92,18 @@ button {
 .Pictures > img {
   width: 50%;
   margin: 10px 0;
+}
+
+footer {
+  bottom: 0;
+  background-color: gray;
+  width: 100%;
+  position: absolute;
+  height: 100px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 20px;
 }
