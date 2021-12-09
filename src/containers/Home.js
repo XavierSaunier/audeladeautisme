@@ -71,11 +71,6 @@ const Home = () => {
                   <h1>Agenda</h1>
 
                   <ul>
-                    <li>Mardi 30 novembre 2021, 17h-19h : café autisme</li>
-                    <li>
-                      Samedi 4 décembre, 15h-17h : télé-atelier de pair-aidance,
-                      l'autisme au quotidien
-                    </li>
                     <li>
                       Samedi 11 décembre, 15h-17h : télé-atelier de
                       pair-aidance, les relations de couple.

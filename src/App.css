@@ -96,11 +96,11 @@ button {
 
 footer {
   bottom: 0;
-  background-color: gray;
+  background-color: rgb(206, 206, 206);
   width: 100%;
   position: absolute;
   height: 100px;
-  color: white;
+
   display: flex;
   justify-content: center;
   align-items: center;
