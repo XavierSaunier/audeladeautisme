@@ -37,13 +37,23 @@ const Home = () => {
             >
               Café autisme
             </button>
-            <button
+
+            {/*<button
               className={control === "activities" ? "checked" : "unchecked"}
               onClick={() => {
                 setControl("activities");
               }}
             >
-              Pair-aidance
+               Pair-aidance 
+            </button>*/}
+
+            <button
+              className={control === "ressources" ? "checked" : "unchecked"}
+              onClick={() => {
+                setControl("ressources");
+              }}
+            >
+              Dépistage
             </button>
           </div>
 
@@ -137,6 +147,39 @@ const Home = () => {
                   inscrites au préalable à l'adresse mail
                   audeladeaustisme@gmail.com.
                 </p>
+              </div>
+            )}
+            {control === "ressources" && (
+              <div className="Info">
+                <h1>Dépistage</h1>
+                <p>
+                  Il est difficile d'estimer la part de personnes autistes dans
+                  la population, d'autant plus que nombre d'entre elles ne
+                  seraient pas diagnostiquées. Si vous pensez être de ces
+                  personnes, voici quelques tests de dépistage.
+                  <br />
+                  Attention, ces tests sont purement indicatifs et ne tiennent
+                  pas lieu d'un examen réalisé par un professionnel. Ils ont
+                  pour but de vous confirmer ce que vous pensez ou, au
+                  contraire, de vous orienter vers d'autres pistes. Par
+                  conséquent, si vous obtenez un score suggérant l'autisme sur
+                  ces tests, cela ne se traduira pas forcément par un
+                  diagnostic. Inversement, vous pourriez être diagnostiqué
+                  autiste même si ces tests ne le laissent pas supposer. <br />
+                  Il ne tient qu'à vous d'entreprendre les démarches menant vers
+                  un diagnostic officiel.
+                </p>
+                <a href="http://www.psychomedia.qc.ca/autisme/test-lecture-de-l-etat-d-esprit-dans-les-yeux">
+                  Test de regards : Baron-Cohen
+                </a>
+                <br />
+                <br />
+                <a href="https://www.google.com/search?client=firefox-b-d&q=quotient+autistique">
+                  Quotient autistique
+                </a>
+                <br />
+                <br />
+                <a href="http://www.rdos.net/fr/">Aspiquizz</a>
               </div>
             )}
           </div>
